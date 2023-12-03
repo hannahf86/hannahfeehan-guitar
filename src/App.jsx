@@ -5,7 +5,9 @@ function App() {
 
   return (
     <>
+    
       <Nav />
+      
       <Landing />
     </>
   )

@@ -3,6 +3,7 @@ import React from 'react'
 const Teaching = () => {
   return (
     <div id='teaching'>
+      <div className={styles.link}>For DEVELOPMENT website, click <a href='https://www.hannahfeehan.dev/'>here</a></div>
 <h2>Teaching</h2>
 
 <h3>Lessons available in:</h3>
