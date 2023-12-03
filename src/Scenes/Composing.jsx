@@ -2,7 +2,7 @@ import React from 'react'
 
 const Composing = () => {
   return (
-    <div>Composing</div>
+    <div id='composing'>Composing</div>
   )
 }
 

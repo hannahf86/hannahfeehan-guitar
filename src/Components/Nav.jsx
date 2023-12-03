@@ -7,13 +7,13 @@ const Nav = () => {
 
     const styles = {
         mobileContainer: 'lg:hidden',
-        background: ' flex justify-center justify-evenly items-center fixed bottom-0 left-0 z-50 w-full bg-[#121b2c] z-10',
+        background: ' flex justify-center justify-evenly items-center fixed bottom-0 left-0 z-50 w-full bg-[#260b3a] z-10',
         icon: 'text-neutral-200 active:text-[#F97316] active:scale-110 my-6 mx-6',
     }
 
     const desktopStyles = {
         desktopContainer: 'hidden md:hidden sm:hidden lg:block',
-        background: 'fixed w-full flex flex-row justify-evenly bg-[#121b2c] shadow-lg shadow-[#F97316] z-10',
+        background: 'fixed w-full flex flex-row justify-evenly bg-[#260b3a] shadow-lg shadow-[#F97316] z-10',
         icons: 'flex flex-row content-center text-neutral-200 my-12',
         text: 'flex items-center text-xl ml-3 tracking-widest hover:text-[#F97316] hover:scale-110 cursor-pointer',
         toggle: 'justify-self-end self-end'
