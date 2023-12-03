@@ -3,7 +3,8 @@ import React from 'react'
 const Landing = () => {
   
     const styles = {
-        title: 'text-6xl font-bold text-white pt-16 ml-12',
+      link: 'text-slate-500 text-center text-sm bg-[#260b3a] py-1',
+        title: 'text-6xl font-bold text-white pt-12 ml-12',
         subtitle: 'text-3xl text-white mt-8 ml-12',
         buttonContainer: 'mx-12 flex flex-col items-center justify-center mt-8',
         buttonP: 'w-60 mt-4 py-6 bg-blue-500 rounded-lg text-white tracking-wider',
@@ -13,6 +14,8 @@ const Landing = () => {
   
     return (
     <div id='/'>
+
+<div className={styles.link}>For DEVELOPMENT website, click <a href='https://www.hannahfeehan.dev/'>here</a></div>
 
 <div>
       <h1 className={styles.title}>Hannah Feehan</h1>
