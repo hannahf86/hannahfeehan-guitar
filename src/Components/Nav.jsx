@@ -13,7 +13,8 @@ const Nav = () => {
 
     const desktopStyles = {
         desktopContainer: 'hidden md:hidden sm:hidden lg:block',
-        background: 'fixed w-full flex flex-row justify-evenly bg-[#260b3a] shadow-lg shadow-[#F97316] z-10',
+        link: 'text-slate-500 text-center text-sm bg-[#260b3a] py-1',
+        background: 'fixed w-full flex flex-row justify-evenly bg-[#260b3a] z-10',
         icons: 'flex flex-row content-center text-neutral-200 my-12',
         text: 'flex items-center text-xl ml-3 tracking-widest hover:text-[#F97316] hover:scale-110 cursor-pointer',
         toggle: 'justify-self-end self-end'
@@ -33,17 +34,18 @@ const Nav = () => {
 
             {/* DESKTOP NAV*/}
             <div className={desktopStyles.desktopContainer}>
+            <div className={desktopStyles.link}>For DEVELOPMENT website, click <a href='https://www.hannahfeehan.dev/'>here</a></div>
                 <div id='desktop-nav' className={desktopStyles.background}>
                     <div className={desktopStyles.icons}>
                         <a href='/'><h2 className={desktopStyles.text}><div className='mr-3'><HiHome /></div>HOME</h2></a>
                     </div>
 
                     <div className={desktopStyles.icons}>
-                        <a href='/#news'> <h2 className={desktopStyles.text}><div className='mr-3'><HiOutlineNewspaper /></div>PROJECTS</h2></a>
+                        <a href='/#news'> <h2 className={desktopStyles.text}><div className='mr-3'><HiOutlineNewspaper /></div>NEWS</h2></a>
                     </div>
 
                     <div className={desktopStyles.icons}>
-                        <a href='/#about'><h2 className={desktopStyles.text}><div className='mr-3'><HiBookOpen  /></div>SKILLS</h2></a>
+                        <a href='/#about'><h2 className={desktopStyles.text}><div className='mr-3'><HiBookOpen  /></div>ABOUT</h2></a>
                     </div>
 
                     <div className={desktopStyles.icons}>
