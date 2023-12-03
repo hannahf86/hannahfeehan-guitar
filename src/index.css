@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* GLOBAL */
+
+body {
+font-size: 16px;
+}
+
+/* TYPOGRAPHY */
+
+h1 {
+  font-family: 'Maven Pro', sans-serif;
+}
+
+h2 {
+  font-family: 'Lato', sans-serif;
+}
+
+
+/* LAYOUT */
