@@ -21,7 +21,7 @@ const Landing = () => {
 
       <div className={styles.buttonContainer}>
         <a href="/#teaching"><button className={styles.buttonP}>TEACHING</button></a>
-        <a href="/#composing"><button className={styles.buttonT}>COMPOSING</button></a>
+        <a href="/#composing"><button className={styles.buttonT}>COMPOSING etc.</button></a>
         <a href="/#performance"><button className={styles.buttonC}>PERFORMANCE</button></a>
       </div>
 
